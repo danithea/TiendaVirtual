@@ -1,0 +1,2 @@
+[submodule "path_to_submodule"]
+	url = git_url_to_submodule
