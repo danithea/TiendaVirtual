@@ -1,0 +1,26 @@
+.center-content {
+    margin-top: 2%;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: -webkit-center;
+}
+
+.form-group {
+    width: 80%;
+}
+
+.boton {
+    margin: 1%;
+    width: 100%;
+}
+
+.card {
+    margin-top: 5%;
+}
+
+.mat-mdc-raised-button.mat-primary {
+    --mdc-protected-button-container-color: #f58abc;
+    --mdc-protected-button-label-text-color: #fff;
+    --mat-protected-button-state-layer-color: #fff;
+    --mat-protected-button-ripple-color: rgba(255, 255, 255, 0.1);
+}

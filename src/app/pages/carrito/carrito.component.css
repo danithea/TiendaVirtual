@@ -1,0 +1,76 @@
+.carrito-card {
+    margin-top: 20px;
+    /* Espacio superior */
+    padding: 20px;
+    /* Relleno interno */
+    background-color: #f0e6e6;
+    /* Color de fondo */
+    border-radius: 8px;
+    /* Borde redondeado */
+}
+
+.carrito-card h1 {
+    font-size: 24px;
+    /* Tamaño de fuente para el título */
+    margin-bottom: 20px;
+    /* Espacio inferior */
+    text-align: center;
+    /* Centrar el texto */
+    font-weight: bold;
+    /* Poner en negrita */
+    color: rgb(72, 69, 71);
+}
+
+.mat-card {
+    margin-top: 20px;
+    /* Espacio superior */
+}
+
+.mat-table {
+    width: 100%;
+    /* Ancho completo */
+}
+
+.mat-header-cell,
+.mat-cell {
+    text-align: left;
+    /* Alineación del texto a la izquierda */
+    padding: 12px;
+    /* Relleno interno */
+}
+
+.mat-header-row {
+    background-color: #f0f0f0;
+    /* Color de fondo para la fila del encabezado */
+}
+
+.mat-row:nth-child(even) {
+    background-color: #fafafa;
+    /* Color de fondo para filas pares */
+}
+
+.mat-row:hover {
+    background-color: #e0e0e0;
+    /* Color de fondo al pasar el ratón */
+}
+
+.mat-row,
+.mat-header-row {
+    border-bottom: 1px solid #ddd;
+    /* Borde inferior */
+}
+
+p {
+    margin-top: 20px;
+    /* Espacio superior */
+    font-size: 18px;
+    /* Tamaño de fuente para el texto */
+}
+
+button.mat-icon-button {
+    min-width: 36px;
+    /* Ancho mínimo para los botones de iconos */
+    min-height: 36px;
+    /* Altura mínima para los botones de iconos */
+}
+

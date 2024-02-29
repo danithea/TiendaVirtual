@@ -1,0 +1,58 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 10px
+}
+    
+.banner img {
+    width: 1500px;
+    height: 700px;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 20px;
+    padding: 100px;
+    text-align: left;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    position: relative;
+}
+
+.title {
+    color: #c21364;
+    font-size: 70px;
+    line-height: 70px;
+    padding-bottom: 45px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: auto;
+    z-index: 1;
+    position: relative;
+    margin-left: 325px;
+}
+
+.title .midil_img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title .midil_img img {
+    width: 50%;
+    height: auto;
+    margin-left: 170px;
+} 
+
+.subtitle {
+    font-size: 22x;
+    color: #888;
+    margin-left: 325px;
+    margin-right: 325px;
+    text-align: justify;
+}
+

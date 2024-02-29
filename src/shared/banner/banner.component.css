@@ -1,0 +1,6 @@
+:host ::ng-deep {
+    background-color: pink;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}

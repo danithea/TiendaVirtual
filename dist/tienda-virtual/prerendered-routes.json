@@ -1,0 +1,10 @@
+{
+  "routes": [
+    "/carrito",
+    "/home",
+    "/login",
+    "/pago",
+    "/productos",
+    "/registro"
+  ]
+}

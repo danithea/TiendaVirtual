@@ -1,0 +1,94 @@
+/* Estilos para el contenedor */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el contenedor del producto */
+.product-container {
+    max-width: 100%;
+    /* Limitar el ancho máximo del contenedor */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el mensaje de carga */
+.container h5 {
+    font-size: 24px;
+}
+
+/* Estilos para la tarjeta */
+/* Estilos para la tarjeta del producto */
+.card {
+    max-width: 100%;
+    /* Limitar el ancho máximo de la tarjeta */
+    width: 18rem;
+    background-color: rgb(255, 223, 236);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+/* Estilos para la imagen de la tarjeta */
+.card-img-top {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: 15px;
+    object-fit: contain;
+}
+
+/* Estilos para el cuerpo de la tarjeta */
+.card-body {
+    padding: 20px;
+}
+
+/* Estilos para el título de la tarjeta */
+.card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para el precio de la tarjeta */
+.card-body h4 {
+    color: rgb(179, 30, 87);
+}
+
+/* Estilos para la descripción de la tarjeta */
+.card-body {
+    padding: 20px;
+    text-align: justify;
+    /* Agregar esta línea para centrar el botón */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos para el botón de añadir a carrito */
+.btn-add-to-cart {
+    background-color: #d46b8e;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+

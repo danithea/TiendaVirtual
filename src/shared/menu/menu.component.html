@@ -1,0 +1,17 @@
+<mat-toolbar color="primary">
+  <!-- <button mat-icon-button class="example-icon" aria-label="Abrir menú">
+    <mat-icon>menu</mat-icon>
+  </button> -->
+  <a class="navbar-brand d-flex align-items-center" href="#">
+    App <span class="custom-color">STORE </span>
+    <img src="../../assets/logo.png" width="50" height="50" class="ms-2" alt="Logo"> 
+  </a>
+  <span class="example-spacer"></span>
+  <a [routerLink]="['/home']" mat-button class="text-white">Home</a>
+  <a [routerLink]="['/productos']" mat-button class="text-white">Productos</a>
+  <a [routerLink]="['/pago']" mat-button class="text-white">Pago</a>
+    <a [routerLink]="['/registro']" mat-button class="text-white">Iniciar Sesión</a>
+  <button mat-icon-button class="example-icon text-white" aria-label="Agregar al carrito" [routerLink]="['/carrito']">
+    <mat-icon>add_shopping_cart</mat-icon>
+  </button>
+</mat-toolbar>
